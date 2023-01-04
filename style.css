@@ -74,3 +74,72 @@ header{
     opacity:0.8;
     transform: translateY(-10px); 
 }
+section{
+  padding: 0 16%;   
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+}
+.image{
+    height: 300%;
+    width: 300%;
+}
+.text{
+    padding-top:70px;
+
+}
+.text .slide{
+    margin-bottom: 20px;
+
+}
+.text .one{
+    height: 40px;
+    padding: 0px 5px;
+    line-height: 40px;
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 5px;
+    background: #ffbb01;
+    color: #fff;
+    display: inline-block;
+    margin-right: 22px;
+
+}
+.text .two{
+    font-size: 24px;
+    color: #161616;
+    display: inline-block;
+    font-weight: 500;
+}
+.text h1{
+    font-size: 120px;
+    font-weight: 700;
+    color: #161616;
+    line-height: 0.9;
+    margin: 0 0 8px;
+
+}
+.text h2{
+    color: #161616;
+    margin: 0 0 8px;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 1;
+}
+span{
+    color: #ef0454;
+
+}
+.text p{
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
